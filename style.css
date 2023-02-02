@@ -1,12 +1,20 @@
 body
 {
+    background-image: url('baseball-background.jpg');
     margin: 0;
     padding: 0;
     background-position-x: 150px;
+    background-size: 960px;
+    background-repeat: no-repeat;
 }
 
 #content
 {
+    border-left:solid 2px red;
+    border-right:solid 2px red;
+    margin: auto;
+    margin-top: 150px;
+    width: 800px;
     padding: 20px;
     background-color: rgba(255,255,255,0.85);
 }
@@ -15,9 +23,26 @@ body
 {
     padding:20px;
     margin:10px;
+    float: right;
+    width: 150px;
+    border-left:solid 2px black;
 }
 
 .frame img
 {
     width: 150px;
+}
+.imgcaption{
+    text-align: center;
+    font-style: italic;
+}
+.kiemelt{
+    font-weight: bold;
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
 }
